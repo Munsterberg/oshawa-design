@@ -1,3 +1,42 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  min-width: 100%; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #D8E9F0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin: 0; } }
+.landing-header {
+  background-color: #158645;
+  min-height: 500px; }
+  .landing-header h1 {
+    color: #D8E9F0;
+    font-weight: 700;
+    font-size: 7em;
+    text-align: center;
+    padding: 50px 0 50px 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;

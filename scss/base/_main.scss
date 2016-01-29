@@ -1,0 +1,48 @@
+// Nav Section
+// ====================
+
+.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  min-width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $cream-color;
+  font-family: $body-font;
+  font-size: 1.3em;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin: 0;
+  }
+}
+
+// Hero Section
+// ====================
+
+.landing-header {
+  background-color: #158645; 
+  min-height: 500px;
+  
+  h1 {
+    color: $cream-color;
+    font-weight: $title-font-weight;
+    font-size: 7em;
+    text-align: center;
+    padding: 50px 0 50px 0;
+  }
+}
