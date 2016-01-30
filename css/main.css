@@ -9,7 +9,8 @@
 .navbar-default .navbar-nav > li > a {
   color: #D8E9F0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.3em; }
+  font-size: 1.5em;
+  margin-top: 25px; }
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -21,15 +22,48 @@
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin: 0; } }
+.jumbotron {
+  margin: 0; }
+
 .landing-header {
-  background-color: #158645;
-  min-height: 500px; }
+  background-image: url(../../img/herobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px; }
   .landing-header h1 {
     color: #D8E9F0;
     font-weight: 700;
     font-size: 7em;
     text-align: center;
-    padding: 50px 0 50px 0; }
+    padding: 150px 0 50px 0; }
+
+.cloud-section {
+  background-color: #41C0F7;
+  min-height: 400px;
+  text-align: center; }
+  .cloud-section h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.4em;
+    margin: 100px 0 20px 0;
+    color: #ffffff; }
+  .cloud-section p {
+    color: #D8E9F0;
+    font-size: 18px; }
+
+.text-cont {
+  max-width: 500px;
+  text-align: justify; }
+
+.cloud-left {
+  float: left;
+  margin-left: 15%;
+  margin-top: 40px; }
+
+.cloud-right {
+  float: right;
+  margin-right: 15%;
+  margin-top: 40px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif; }

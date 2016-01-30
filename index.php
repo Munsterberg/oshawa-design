@@ -9,7 +9,9 @@
 </div>
 
 <div class="cloud-section">
-  <div class="container">
+  <img class="cloud-left" src="./img/cloudleft.png" alt="">
+  <img class="cloud-right" src="./img/cloudright.png" alt="">
+  <div class="container text-cont">
     <h2>Grow Together</h2>
     <p>"Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results." - Andrew Carnegie</p>
   </div>

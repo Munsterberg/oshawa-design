@@ -13,7 +13,8 @@
 .navbar-default .navbar-nav > li > a {
   color: $cream-color;
   font-family: $body-font;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  margin-top: 25px;
 }
 
 .navbar .navbar-nav {
@@ -34,15 +35,59 @@
 // Hero Section
 // ====================
 
+.jumbotron {
+  margin: 0;
+}
+
 .landing-header {
-  background-color: #158645; 
-  min-height: 500px;
+  background-image: url(../../img/herobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
   
   h1 {
     color: $cream-color;
     font-weight: $title-font-weight;
     font-size: 7em;
     text-align: center;
-    padding: 50px 0 50px 0;
+    padding: 150px 0 50px 0;
   }
+}
+
+// Cloud Section
+// ====================
+
+.cloud-section {
+  background-color: #41C0F7; 
+  min-height: 400px;
+  text-align: center;
+  
+  h2 {
+    font-weight: $title-font-weight;
+    text-align: center;
+    font-size: 3.4em;
+    margin: 100px 0 20px 0;
+    color: #ffffff;
+  }
+  p {
+    color: $cream-color;
+    font-size: 18px;
+  }
+}
+
+.text-cont {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.cloud-left {
+  float: left;
+  margin-left: 15%;
+  margin-top: 40px;
+}
+
+.cloud-right {
+  float: right;
+  margin-right: 15%;
+  margin-top: 40px;
 }
