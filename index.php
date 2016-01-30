@@ -8,28 +8,31 @@
   </div>
 </div>
 
+<div class="info-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p>Icon</p>
+        <h4>Website Development</h4>
+      </div>
+      <div class="col-md-4">
+        <p>Icon</p>
+        <h4>App Development</h4>
+      </div>
+      <div class="col-md-4">
+        <p>Icon</p>
+        <h4>Search Engine Optimization</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="cloud-section">
   <img class="cloud-left" src="./img/cloudleft.png" alt="">
   <img class="cloud-right" src="./img/cloudright.png" alt="">
   <div class="container text-cont">
     <h2>Grow Together</h2>
     <p>"Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results." - Andrew Carnegie</p>
-  </div>
-</div>
-
-<div class="info-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Website Development</h4>
-      </div>
-      <div class="col-md-4">
-        <h4>App Development</h4>
-      </div>
-      <div class="col-md-4">
-        <h4>Search Engine Optimization</h4>
-      </div>
-    </div>
   </div>
 </div>
 
