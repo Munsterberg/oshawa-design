@@ -4,7 +4,10 @@
 
 <div class="jumbotron landing-header">
   <div class="container">
-    <h1 class="landing-title">Oshawa Design</h1>
+    <div class="introduction">
+      <h1>Oshawa Design</h1>
+      <p>Professional Web Development and Design</p>
+    </div>
   </div>
 </div>
 
@@ -12,16 +15,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <p>Icon</p>
         <h4>Website Development</h4>
+        <div class="small-line"></div>
+        <p>We build beautiful websites that look perfect on all devices, desktops, mobile, and tablets. Using cutting-edge technology, we design and develop full-scale web applications with interactive front-ends and complex back-ends.</p>
       </div>
       <div class="col-md-4">
-        <p>Icon</p>
         <h4>App Development</h4>
+        <div class="small-line"></div>
+        <p>Maybe your organization requires a mobile application to supplement your website or vice versa. We develop apps for all phone applications and have even developed mobile games!</p>
       </div>
       <div class="col-md-4">
-        <p>Icon</p>
         <h4>Search Engine Optimization</h4>
+        <div class="small-line"></div>
+        <p>Semantic code and marketing campaigns is our middle name. We will provide you with all the tools and jumpstart your company needs to boost sales or traffic.</p>
       </div>
     </div>
   </div>

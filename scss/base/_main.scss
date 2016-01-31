@@ -43,14 +43,31 @@
   background-image: url(../../img/herobg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 750px;
-  
-  h1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.introduction {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    
+    h1 {
     color: $cream-color;
     font-weight: $title-font-weight;
     font-size: 7em;
     text-align: center;
-    padding: 150px 0 50px 0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: $cream-color;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -92,9 +109,19 @@
   margin-top: 40px;
 }
 
-// Cloud Section
+// Info Section
 // ====================
 
 .info-section {
   text-align: center;
+  color: $dark-color;
+  padding: 50px 0 50px 0;
+  
+  h4 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: $title-font-weight;
+  }
 }
+
+
