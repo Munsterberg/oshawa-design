@@ -8,6 +8,19 @@
   border: none;
   border-radius: 0;
   min-width: 100%;
+  z-index: 999;
+}
+
+.collapse.in {
+  background-color: $blue-color;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -26,6 +39,9 @@
   -moz-transition: all 0.4s ease !important;
   -o-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
 
@@ -47,6 +63,13 @@
     margin: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    display: none;
+  }
+}
+
 
 // Hero Section
 // ====================
@@ -145,3 +168,9 @@
 }
 
 
+// Project Section
+// ====================
+
+.project-section {
+  padding: 50px 0 50px 0;
+}

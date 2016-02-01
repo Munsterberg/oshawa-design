@@ -14,6 +14,7 @@
 <div class="info-section">
   <div class="container">
     <div class="row">
+      <h2 class="intro-title">What we specialize in</h2>
       <div class="col-md-4">
         <h4>Website Development</h4>
         <div class="small-line"></div>
@@ -44,7 +45,7 @@
 
 <div class="project-section">
   <div class="container">
-    <h3>Responsive Websites</h3>
+    <h2 class="intro-title">Listen to our clients</h2>
     <p>Some small text under a title.</p>
   </div>
 </div>
