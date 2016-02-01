@@ -16,16 +16,19 @@
     <div class="row">
       <h2 class="intro-title">What we specialize in</h2>
       <div class="col-md-4">
+        <i class="fa fa-desktop info-icon"></i>
         <h4>Website Development</h4>
         <div class="small-line"></div>
         <p>We build beautiful websites that look perfect on all devices, desktops, mobile, and tablets. Using cutting-edge technology, we design and develop full-scale web applications with interactive front-ends and complex back-ends.</p>
       </div>
       <div class="col-md-4">
+        <i class="fa fa-phone info-icon"></i>
         <h4>App Development</h4>
         <div class="small-line"></div>
         <p>Maybe your organization requires a mobile application to supplement your website or vice versa. We develop apps for all phone applications and have even developed mobile games!</p>
       </div>
       <div class="col-md-4">
+        <i class="fa fa-sitemap info-icon"></i>
         <h4>Search Engine Optimization</h4>
         <div class="small-line"></div>
         <p>Semantic code and marketing campaigns is our middle name. We will provide you with all the tools and jumpstart your company needs to boost sales or traffic.</p>
@@ -45,8 +48,8 @@
 
 <div class="project-section">
   <div class="container">
-    <h2 class="intro-title">Listen to our clients</h2>
-    <p>Some small text under a title.</p>
+    <h2 class="intro-title">A bit of our work</h2>
+    
   </div>
 </div>
 
