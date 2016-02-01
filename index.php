@@ -42,13 +42,6 @@
   </div>
 </div>
 
-<div class="notice-section">
-  <div class="container">
-    <h2>Catchy Title</h2>
-    <button>CTA</button>
-  </div>
-</div>
-
 <div class="project-section">
   <div class="container">
     <h3>Responsive Websites</h3>
@@ -56,6 +49,13 @@
   </div>
 </div>
 
+
+<div class="notice-section">
+  <div class="container">
+    <h2>Catchy Title</h2>
+    <button>CTA</button>
+  </div>
+</div>
 
 
 <?php include_once 'partials/footer.php' ?>
