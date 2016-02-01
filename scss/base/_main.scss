@@ -17,6 +17,22 @@
   margin-top: 25px;
 }
 
+.show-nav {
+  background-color: $dark-color;
+  max-height: 100px;
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 0.4s ease !important;
+  -moz-transition: all 0.4s ease !important;
+  -o-transition: all 0.4s ease !important;
+  transition: all 0.4s ease !important;
+  z-index: 999;
+}
+
+.show-nav .navbar-nav > li > a {
+  margin-top: 0;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -121,6 +137,10 @@
     margin: 0;
     font-size: 1.5em;
     font-weight: $title-font-weight;
+  }
+  
+  p {
+    text-align: justify;
   }
 }
 
